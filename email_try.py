@@ -34,7 +34,7 @@ password=getpass(prompt='Password: ',stream=None)
 # emails=['pranavkhatal0704@gmail.com','dishant.rathee@gmail.com']
 # emails=['dishant.rathee@gmail.com','navita.budhwar@gmail.com']
 # yag=yagmail.SMTP("dsc.vidyalankar@gmail.com", password)
-yag=yagmail.SMTP("dsc.vidyalankar@gmail.com", password)
+yag=yagmail.SMTP("", password)
 # for e in emails:
 # subject='In the world of assorted mithai, you are our Kaju Katli 💛'
 subject={'Android.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','Design.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','Events.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','GDSC Leads.png':'In the world of assorted mithai, you are our Kaju Katli 💛','Mohit GDSC VIT.png':'In the world of assorted mithai, you are our Kaju Katli 💛','PR.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','Shivani GDSC VIT.png':'In the world of assorted mithai, you are our Kaju Katli 💛','Spons.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','Tech.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔','Web.png':'Driven by the gleam of Diyas onto the road of growth and success 🪔'}

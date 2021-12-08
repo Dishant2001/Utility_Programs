@@ -2,9 +2,9 @@ import smtplib, ssl
 from getpass import getpass
 
 port = 465  # For SSL
-sender_email='dishant.rathee@gmail.com'
+sender_email=''
 # receiver_email=['dishant.rathee@gmail.com','dishant2001.rathee@gmail.com','dishant2001.kumar@gmail.com','bbegins555@gmail.com']
-receiver_email=['pranavkhatal0704@gmail.com','dishant.rathee@gmail.com']
+receiver_email=['','']
 emojis=['💛','😎','❤️💚💛💙']
 message = """\
 Subject: In the world of assorted mithai, you are our kaju katli {}
@@ -31,7 +31,7 @@ password=getpass(prompt='Password: ',stream=None)
 context = ssl.create_default_context()
 
 with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-    server.login("dishant.rathee@gmail.com", password)
+    server.login("", password)
     # TODO: Send email here
     for e in receiver_email:
         server.sendmail(sender_email, e, message)
